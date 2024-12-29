@@ -104,9 +104,11 @@ Trước khi bắt đầu, hãy đảm bảo máy tính của bạn đáp ứng 
     - Điện thoại: 0867570650
 ---
 
-## File `setup.py` được sử dụng để đóng gói và cài đặt dự án Python. Sau khi cài đặt, bạn có thể chạy ứng dụng trực tiếp từ terminal mà không cần quản lý thủ công các tệp nguồn.
+Cảm ơn bạn đã phản hồi! Dưới đây là phiên bản sửa lỗi của file **INSTALL.md**, đảm bảo định dạng Markdown chuẩn và không bị lỗi hiển thị:
 
 ---
+
+#  File `setup.py` được sử dụng để đóng gói và cài đặt dự án Python. Sau khi cài đặt, bạn có thể chạy ứng dụng trực tiếp từ terminal mà không cần quản lý thủ công các tệp nguồn.
 
 ## 1. Cài đặt gói từ `setup.py`
 
@@ -124,7 +126,46 @@ Trước khi bắt đầu, hãy đảm bảo máy tính của bạn đáp ứng 
 ---
 
 ### 1.2. Cài đặt dự án
-1. Mở terminal hoặc 4. Lỗi phổ biến và cách khắc phục
+1. Mở terminal hoặc command prompt.
+2. Di chuyển đến thư mục chứa file `setup.py`:
+   ```bash
+   cd <thư mục chứa setup.py>
+   ```
+3. Chạy lệnh sau để cài đặt dự án:
+   ```bash
+   pip install .
+   ```
+   - Lệnh này sẽ:
+     - Cài đặt các thư viện phụ thuộc được liệt kê trong `setup.py`.
+     - Thêm dự án vào môi trường Python của bạn.
+
+---
+
+## 2. Chạy ứng dụng
+Sau khi cài đặt thành công, bạn có thể chạy ứng dụng bằng lệnh:
+
+```bash
+tsp_solver
+```
+
+Nếu entry point không hoạt động, bạn có thể chạy ứng dụng trực tiếp từ tệp mã nguồn:
+
+```bash
+python src/main.py
+```
+
+---
+
+## 3. Gỡ cài đặt
+Để gỡ cài đặt dự án, sử dụng lệnh sau:
+
+```bash
+pip uninstall tsp_solver
+```
+
+---
+
+## 4. Lỗi phổ biến và cách khắc phục
 
 1. **`ModuleNotFoundError`**:
    - Đảm bảo bạn đã cài đặt dự án đúng cách.
