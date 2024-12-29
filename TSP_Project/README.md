@@ -19,28 +19,16 @@ Các thuật toán được triển khai:
 ---
 
 ## Cấu trúc thư mục
-project/ 
-├── README.md # Tệp mô tả dự án
-├── setup/ # Tệp hướng dẫn và công cụ cài đặt 
-│ ├── INSTALL.md # Hướng dẫn cài đặt chi tiết 
-│ └── requirements.txt # Danh sách thư viện Python cần thiết 
-├── src/ # Mã nguồn chính 
-│ ├── main.py # Tệp khởi chạy chính 
-│ ├── tsp_algorithms.py# Thuật toán TSP 
-│ └── tsp_gui.py # Giao diện đồ họa 
-├── progress-report/ # Báo cáo tiến độ 
-└── thesis/ # Tài liệu 
- 
-
+- `progress-report/`: Nơi lưu các báo cáo tiến độ.
 - `setup/`: Chứa tệp hướng dẫn cài đặt và các tập tin cần thiết.
 - `scr/`: Chứa mã nguồn chính của dự án.
-- `progress-report/`: Nơi lưu các báo cáo tiến độ.
 - `thesis/`: Chứa các tài liệu liên quan đến đồ án với các thư mục con:
   - `doc/`: Tài liệu Word (.doc).
   - `pdf/`: Tài liệu PDF.
   - `html/`: Tài liệu web.
   - `abs/`: Báo cáo (PPT, AVI, ...).
   - `refs/`: Tài liệu tham khảo.
+- `README.md`: Tệp mô tả đồ án
 ---
 
 ## Hướng dẫn cài đặt
