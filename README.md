@@ -13,11 +13,17 @@ Bài toán Người Du Lịch (Travelling Salesman Problem - TSP) là một tron
 
 ## Cấu Trúc Thư Mục
 ```
-TSP_Project/
-├── main.py
-├── tsp_algorithms.py
-├── tsp_gui.py
-└── README.md
+TSP_Project/ 
+├── README.md # Tệp mô tả đồ án
+├── setup/ # Tệp hướng dẫn và công cụ cài đặt 
+│ ├── INSTALL.md # Hướng dẫn cài đặt chi tiết 
+│ └── requirements.txt # Danh sách thư viện Python cần thiết 
+├── src/ # Mã nguồn chính 
+│ ├── main.py # Tệp khởi chạy chính 
+│ ├── tsp_algorithms.py# Thuật toán TSP 
+│ └── tsp_gui.py # Giao diện đồ họa 
+├── progress-report/ # Báo cáo tiến độ 
+└── thesis/ # Tài liệu 
 ```
 
 ## Cài Đặt
