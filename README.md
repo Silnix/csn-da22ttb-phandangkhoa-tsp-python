@@ -9,29 +9,7 @@ Bài toán Người Du Lịch (Travelling Salesman Problem - TSP) là một tron
 1. **Brute Force**: Thử tất cả các hoán vị của các thành phố để tìm ra đường đi ngắn nhất.
 2. **Nearest Neighbor**: Chọn thành phố gần nhất chưa thăm để tiếp tục hành trình cho đến khi thăm hết tất cả các thành phố.
 3. **2-opt**: Tối ưu hóa đường đi hiện tại bằng cách đảo ngược các đoạn đường để giảm tổng chi phí.
-4. **Backtracking**: Sử dụng phương pháp đệ quy và quay lui để tìm ra giải pháp tối ưu.
-
-## Cấu trúc thư mục
-```
-TSP_Project/ 
-├── README.md # Tệp mô tả đồ án
-├── setup/ # Tệp hướng dẫn và công cụ cài đặt 
-│ ├── INSTALL.md # Hướng dẫn cài đặt chi tiết 
-│ └── requirements.txt # Danh sách thư viện Python cần thiết 
-├── src/ # Mã nguồn chính 
-│ ├── main.py # Tệp khởi chạy chính 
-│ ├── tsp_algorithms.py# Thuật toán TSP 
-│ └── tsp_gui.py # Giao diện đồ họa 
-├── progress-report/ # Báo cáo tiến độ 
-└── thesis/ # Tài liệu
-README.md # Tệp thông tin sơ bộ đồ án
-```
-
-## Cài đặt
-Xem các file README.md và INSTALL.md để có thêm thông tin chi tiết
-
-## Sử dụng
-**Giao Diện Người Dùng**:
+4. **Backtracking**: Sdùng**:
 
     Sau khi chạy chương trình, cửa sổ giao diện người dùng sẽ hiện ra với các chức năng:
     - **Thêm Thành Phố**: Nhập số lượng thành phố và tọa độ của các thành phố.
@@ -40,7 +18,7 @@ Xem các file README.md và INSTALL.md để có thêm thông tin chi tiết
     - **Lưu/Tải Dữ Liệu**: Lưu kết quả và log vào file JSON hoặc tải dữ liệu từ file JSON.
     - **Xóa Log**: Xóa log kết quả hiện tại.
     
-**Mô Phỏng và Kết Quả**:
+**Mô phỏng và kết quả**:
 
     - **Thêm Thành Phố**: Nhập số lượng thành phố và tọa độ thành phố hoặc tạo ngẫu nhiên các thành phố trong giới hạn của canvas.
     - **Chọn Thuật Toán**: Chọn một trong các thuật toán Brute Force, Nearest Neighbor, 2-opt hoặc Backtracking.
