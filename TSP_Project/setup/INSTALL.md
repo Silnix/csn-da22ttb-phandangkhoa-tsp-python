@@ -102,3 +102,39 @@ Trước khi bắt đầu, hãy đảm bảo máy tính của bạn đáp ứng 
   - Nếu có vấn đề, vui lòng liên hệ qua:
     - Email: khoadangphan307@gmail.com
     - Điện thoại: 0867570650
+---
+
+## File `setup.py` được sử dụng để đóng gói và cài đặt dự án Python. Sau khi cài đặt, bạn có thể chạy ứng dụng trực tiếp từ terminal mà không cần quản lý thủ công các tệp nguồn.
+
+---
+
+## 1. Cài đặt gói từ `setup.py`
+
+### 1.1. Chuẩn bị môi trường
+1. **Yêu cầu hệ thống**:
+   - Python phiên bản 3.8 trở lên.
+   - Công cụ `pip` để quản lý thư viện Python.
+
+2. **Cài đặt thư viện cần thiết**:
+   - Đảm bảo `setuptools` đã được cài đặt (nếu chưa có, chạy lệnh sau):
+     ```bash
+     pip install setuptools
+     ```
+
+---
+
+### 1.2. Cài đặt dự án
+1. Mở terminal hoặc 4. Lỗi phổ biến và cách khắc phục
+
+1. **`ModuleNotFoundError`**:
+   - Đảm bảo bạn đã cài đặt dự án đúng cách.
+   - Kiểm tra bạn đang sử dụng đúng môi trường Python.
+
+2. **Không thể chạy lệnh `tsp_solver`**:
+   - Kiểm tra entry point trong file `setup.py` (mục `entry_points`).
+   - Nếu lỗi vẫn xảy ra, hãy chạy ứng dụng trực tiếp bằng lệnh:
+     ```bash
+     python src/main.py
+     ```
+
+---
