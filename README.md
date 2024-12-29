@@ -48,7 +48,9 @@ Xem các file README.md và INSTALL.md để có thêm thông tin chi tiết
 
 ## Thông Tin
 Nếu gặp bất kỳ vấn đề nào trong quá trình cài đặt hoặc sử dụng, vui lòng liên hệ với Phan Đăng Khoa qua email khoadangphan307@gmail.com.
+
 MSSV: 110122227
+
 Mã lớp: DA22TTB
 
-GVHD: Trầm Hoàng Nam
+`GVHD: Trầm Hoàng Nam`
