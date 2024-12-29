@@ -1,4 +1,4 @@
-# Đồ Án: Viết chương trình mô phỏng bài toán người du lịch 
+# Thực tập đồ án cơ sở ngành: Viết chương trình mô phỏng bài toán người du lịch 
 
 ## Giới thiệu
 Bài toán Người Du Lịch (Travelling Salesman Problem - TSP) là một trong những bài toán tối ưu hóa nổi tiếng trong khoa học máy tính. Mục tiêu của bài toán là tìm con đường ngắn nhất để đi qua một tập hợp các thành phố, mỗi thành phố chỉ được thăm một lần và cuối cùng quay lại thành phố xuất phát.
