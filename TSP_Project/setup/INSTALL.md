@@ -104,10 +104,6 @@ Trước khi bắt đầu, hãy đảm bảo máy tính của bạn đáp ứng 
     - Điện thoại: 0867570650
 ---
 
-Cảm ơn bạn đã phản hồi! Dưới đây là phiên bản sửa lỗi của file **INSTALL.md**, đảm bảo định dạng Markdown chuẩn và không bị lỗi hiển thị:
-
----
-
 #  File `setup.py` được sử dụng để đóng gói và cài đặt dự án Python. Sau khi cài đặt, bạn có thể chạy ứng dụng trực tiếp từ terminal mà không cần quản lý thủ công các tệp nguồn.
 
 ## 1. Cài đặt gói từ `setup.py`
