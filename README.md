@@ -32,6 +32,7 @@ Xem các file README.md và INSTALL.md để có thêm thông tin chi tiết
 
 ## Sử dụng
 **Giao Diện Người Dùng**:
+
     Sau khi chạy chương trình, cửa sổ giao diện người dùng sẽ hiện ra với các chức năng:
     - **Thêm Thành Phố**: Nhập số lượng thành phố và tọa độ của các thành phố.
     - **Chọn Thuật Toán**: Chọn thuật toán để giải quyết bài toán TSP.
@@ -40,6 +41,7 @@ Xem các file README.md và INSTALL.md để có thêm thông tin chi tiết
     - **Xóa Log**: Xóa log kết quả hiện tại.
     
 **Mô Phỏng và Kết Quả**:
+
     - **Thêm Thành Phố**: Nhập số lượng thành phố và tọa độ thành phố hoặc tạo ngẫu nhiên các thành phố trong giới hạn của canvas.
     - **Chọn Thuật Toán**: Chọn một trong các thuật toán Brute Force, Nearest Neighbor, 2-opt hoặc Backtracking.
     - **Mô Phỏng**: Bấm nút "Mô phỏng" để chạy thuật toán và xem kết quả trên canvas.
@@ -47,7 +49,8 @@ Xem các file README.md và INSTALL.md để có thêm thông tin chi tiết
     - **Xóa Log**: Bấm nút "Xóa log" để xóa log kết quả hiện tại.
 
 ## Thông Tin
-Nếu gặp bất kỳ vấn đề nào trong quá trình cài đặt hoặc sử dụng, vui lòng liên hệ với Phan Đăng Khoa qua email khoadangphan307@gmail.com.
+
+Nếu gặp bất kỳ vấn đề nào trong quá trình cài đặt hoặc sử dụng, vui lòng liên hệ với `Phan Đăng Khoa` qua email khoadangphan307@gmail.com.
 
 MSSV: 110122227
 
