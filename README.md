@@ -11,21 +11,24 @@ Bài toán Người Du Lịch (Travelling Salesman Problem - TSP) là một tron
 3. **2-opt**: Tối ưu hóa đường đi hiện tại bằng cách đảo ngược các đoạn đường để giảm tổng chi phí.
 4. **Backtracking**:  Duyệt tất cả các đường đi khả dĩ với cắt tỉa (pruning).
 
+## Cài đặt
+Xem chi tiết trong file `README.md` ở thư mục `TSP_Project` và `INSTALL.md` ở thư mục `TSP_Project\setup` 
+
 ## Sau khi chạy chương trình, cửa sổ giao diện người dùng sẽ hiện ra với các chức năng:
    
-    - **Thêm Thành Phố**: Nhập số lượng thành phố và tọa độ của các thành phố.
-    - **Chọn Thuật Toán**: Chọn thuật toán để giải quyết bài toán TSP.
-    - **Mô Phỏng**: Chạy thuật toán đã chọn và hiển thị kết quả.
-    - **Lưu/Tải Dữ Liệu**: Lưu kết quả và log vào file JSON hoặc tải dữ liệu từ file JSON.
-    - **Xóa Log**: Xóa log kết quả hiện tại.
+    - Thêm thành phố: Nhập số lượng thành phố và tọa độ của các thành phố.
+    - Chọn thuật toán: Chọn thuật toán để giải quyết bài toán TSP.
+    - Mô phỏng: Chạy thuật toán đã chọn và hiển thị kết quả.
+    - Lưu/Tải dữ liệu: Lưu kết quả và log vào file JSON hoặc tải dữ liệu từ file JSON.
+    - Xóa log: Xóa log kết quả hiện tại.
     
 **Mô phỏng và kết quả**:
 
-    - **Thêm Thành Phố**: Nhập số lượng thành phố và tọa độ thành phố hoặc tạo ngẫu nhiên các thành phố trong giới hạn của canvas.
-    - **Chọn Thuật Toán**: Chọn một trong các thuật toán Brute Force, Nearest Neighbor, 2-opt hoặc Backtracking.
-    - **Mô Phỏng**: Bấm nút "Mô phỏng" để chạy thuật toán và xem kết quả trên canvas.
-    - **Lưu/Tải Dữ Liệu**: Sử dụng các nút "Lưu kết quả", "Tải thành phố", "Lưu Log", và "Tải Log" để lưu hoặc tải dữ liệu từ file JSON.
-    - **Xóa Log**: Bấm nút "Xóa log" để xóa log kết quả hiện tại.
+    - Thêm thành phố: Nhập số lượng thành phố và tọa độ thành phố hoặc tạo ngẫu nhiên các thành phố trong giới hạn của canvas.
+    - Chọn thuật toán: Chọn một trong các thuật toán Brute Force, Nearest Neighbor, 2-opt hoặc Backtracking.
+    - Mô phỏng: Bấm nút "Mô phỏng" để chạy thuật toán và xem kết quả trên canvas.
+    - Lưu/Tải dữ liệu: Sử dụng các nút "Lưu kết quả", "Tải thành phố", "Lưu Log", và "Tải Log" để lưu hoặc tải dữ liệu từ file JSON.
+    - Xóa log: Bấm nút "Xóa log" để xóa log kết quả hiện tại.
 
 ## Thông Tin
 
