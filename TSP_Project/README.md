@@ -1,6 +1,6 @@
 # Mô phỏng bài toán người du lịch - TSP_Project
 
-## Mô tả dự án
+## Mô tả đồ án
 Dự án này mô phỏng bài toán Người Du Lịch (Traveling Salesman Problem - TSP) bằng Python. Mục tiêu là tìm đường đi ngắn nhất qua tất cả các thành phố và quay lại điểm xuất phát. Dự án cung cấp giao diện đồ họa thân thiện để người dùng tương tác.
 
 Các thuật toán được triển khai:
