@@ -9,9 +9,10 @@ Bài toán Người Du Lịch (Travelling Salesman Problem - TSP) là một tron
 1. **Brute Force**: Thử tất cả các hoán vị của các thành phố để tìm ra đường đi ngắn nhất.
 2. **Nearest Neighbor**: Chọn thành phố gần nhất chưa thăm để tiếp tục hành trình cho đến khi thăm hết tất cả các thành phố.
 3. **2-opt**: Tối ưu hóa đường đi hiện tại bằng cách đảo ngược các đoạn đường để giảm tổng chi phí.
-4. **Backtracking**: Sdùng**:
+4. **Backtracking**:  Duyệt tất cả các đường đi khả dĩ với cắt tỉa (pruning).
 
-    Sau khi chạy chương trình, cửa sổ giao diện người dùng sẽ hiện ra với các chức năng:
+## Sau khi chạy chương trình, cửa sổ giao diện người dùng sẽ hiện ra với các chức năng:
+   
     - **Thêm Thành Phố**: Nhập số lượng thành phố và tọa độ của các thành phố.
     - **Chọn Thuật Toán**: Chọn thuật toán để giải quyết bài toán TSP.
     - **Mô Phỏng**: Chạy thuật toán đã chọn và hiển thị kết quả.
