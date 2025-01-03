@@ -4,7 +4,7 @@ setup(
     name="tsp_solver",
     version="1.0.0",
     author="Phan Dang Khoa",
-    author_email="khoadangphan307@gmail.com", 
+    author_email="khoadangphan307@gmail.com",
     description="Mô phỏng bài toán người du lịch",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
@@ -16,7 +16,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "tsp_solver=main:main",  
+            "tsp_solver=main:main",
         ],
     },
     classifiers=[
