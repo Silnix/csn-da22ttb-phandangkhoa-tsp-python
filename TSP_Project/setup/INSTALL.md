@@ -25,7 +25,7 @@ Trước khi bắt đầu, hãy đảm bảo máy tính của bạn đáp ứng 
 
 ---
 
-### 2.2. Tạo môi trường ảo (khuyến nghị)
+### 2.2. Tạo môi trường ảo
 1. **Tạo môi trường ảo**:
    - Chạy lệnh sau trong thư mục dự án:
      ```bash
@@ -71,7 +71,7 @@ Trước khi bắt đầu, hãy đảm bảo máy tính của bạn đáp ứng 
      cd <TÊN_THƯ_MỤC>
      ```
 2. **Tải tệp**:
-   - Nếu bạn tải về các tệp riêng lẻ (vd: `main.py`, `tsp_algorithms.py`, `tsp_gui.py`, `README.md`), hãy đặt chúng trong cùng một thư mục (ví dụ: `src`).
+   - Nếu bạn tải về các tệp riêng lẻ (vd: `program_110122227_PhanDangKhoa.py`, `README.md`), hãy đặt chúng trong cùng một thư mục (ví dụ: `src`).
 
 ---
 
@@ -79,7 +79,7 @@ Trước khi bắt đầu, hãy đảm bảo máy tính của bạn đáp ứng 
 1. **Khởi động chương trình**:
    - Trong terminal hoặc command prompt, chạy:
      ```bash
-     python src/main.py
+     python src/program_110122227_PhanDangKhoa.py
      ```
 2. **Giao diện đồ họa sẽ xuất hiện**, sẵn sàng để bạn sử dụng.
 
@@ -99,79 +99,19 @@ Trước khi bắt đầu, hãy đảm bảo máy tính của bạn đáp ứng 
     ```
 
 - **Liên hệ hỗ trợ**:
-  - Nếu có vấn đề, vui lòng liên hệ qua:
-    - Email: khoadangphan307@gmail.com
-    - Điện thoại: 0867570650
+  - Email: khoadangphan307@gmail.com
+  - Điện thoại: 086-757-0650
+
 ---
 
-#  File `setup.py` được sử dụng để đóng gói và cài đặt dự án Python. Sau khi cài đặt, bạn có thể chạy ứng dụng trực tiếp từ terminal mà không cần quản lý thủ công các tệp nguồn.
-
-## 1. Cài đặt gói từ `setup.py`
-
-### 1.1. Chuẩn bị môi trường
-1. **Yêu cầu hệ thống**:
-   - Python phiên bản 3.8 trở lên.
-   - Công cụ `pip` để quản lý thư viện Python.
-
-2. **Cài đặt thư viện cần thiết**:
-   - Đảm bảo `setuptools` đã được cài đặt (nếu chưa có, chạy lệnh sau):
+## 5. Gỡ cài đặt
+1. **Xóa thư mục môi trường ảo**:
+   - Xóa thư mục `venv` trong thư mục dự án.
+2. **Gỡ thư viện cài đặt**:
+   - Nếu cần, gỡ từng thư viện bằng lệnh:
      ```bash
-     pip install setuptools
+     pip uninstall <tên_thư_viện>
      ```
+3. **Xóa dự án**:
+   - Xóa toàn bộ thư mục chứa mã nguồn.
 
----
-
-### 1.2. Cài đặt dự án
-1. Mở terminal hoặc command prompt.
-2. Di chuyển đến thư mục chứa file `setup.py`:
-   ```bash
-   cd <thư mục chứa setup.py>
-   ```
-3. Chạy lệnh sau để cài đặt dự án:
-   ```bash
-   pip install .
-   ```
-   - Lệnh này sẽ:
-     - Cài đặt các thư viện phụ thuộc được liệt kê trong `setup.py`.
-     - Thêm dự án vào môi trường Python của bạn.
-
----
-
-## 2. Chạy ứng dụng
-Sau khi cài đặt thành công, bạn có thể chạy ứng dụng bằng lệnh:
-
-```bash
-tsp_solver
-```
-
-Nếu entry point không hoạt động, bạn có thể chạy ứng dụng trực tiếp từ tệp mã nguồn:
-
-```bash
-python src/main.py
-```
-
----
-
-## 3. Gỡ cài đặt
-Để gỡ cài đặt dự án, sử dụng lệnh sau:
-
-```bash
-pip uninstall tsp_solver
-```
-
----
-
-## 4. Lỗi phổ biến và cách khắc phục
-
-1. **`ModuleNotFoundError`**:
-   - Đảm bảo bạn đã cài đặt dự án đúng cách.
-   - Kiểm tra bạn đang sử dụng đúng môi trường Python.
-
-2. **Không thể chạy lệnh `tsp_solver`**:
-   - Kiểm tra entry point trong file `setup.py` (mục `entry_points`).
-   - Nếu lỗi vẫn xảy ra, hãy chạy ứng dụng trực tiếp bằng lệnh:
-     ```bash
-     python src/main.py
-     ```
-
----
