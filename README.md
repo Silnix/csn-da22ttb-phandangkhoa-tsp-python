@@ -1,41 +1,55 @@
-# Thực tập đồ án cơ sở ngành: Viết chương trình mô phỏng bài toán người du lịch 
+# Viết chương trình mô phỏng bài toán người du lịch (Traveling Salesman Problem - TSP)
 
 ## Giới thiệu
-Bài toán Người Du Lịch (Travelling Salesman Problem - TSP) là một trong những bài toán tối ưu hóa nổi tiếng trong khoa học máy tính. Mục tiêu của bài toán là tìm con đường ngắn nhất để đi qua một tập hợp các thành phố, mỗi thành phố chỉ được thăm một lần và cuối cùng quay lại thành phố xuất phát.
 
-Đồ án này thực hiện việc mô phỏng và giải quyết bài toán TSP sử dụng các thuật toán khác nhau như Brute Force, Nearest Neighbor, 2-opt và Backtracking. Ứng dụng được xây dựng với giao diện đồ họa người dùng (GUI) sử dụng thư viện `tkinter` trong Python.
+Bài toán người du lịch (Traveling Salesman Problem - TSP) là một trong những bài toán nổi tiếng trong lý thuyết đồ thị và tối ưu hóa. Mục tiêu là tìm hành trình ngắn nhất qua tất cả các thành phố trong một danh sách, ghé thăm mỗi thành phố đúng một lần trước khi trở lại điểm xuất phát. Ứng dụng rộng rãi trong logistics, lập lịch trình, và tối ưu hóa mạng.
 
-## Các thuật toán sử dụng
-1. **Brute Force**: Thử tất cả các hoán vị của các thành phố để tìm ra đường đi ngắn nhất.
-2. **Nearest Neighbor**: Chọn thành phố gần nhất chưa thăm để tiếp tục hành trình cho đến khi thăm hết tất cả các thành phố.
-3. **2-opt**: Tối ưu hóa đường đi hiện tại bằng cách đảo ngược các đoạn đường để giảm tổng chi phí.
-4. **Backtracking**:  Duyệt tất cả các đường đi khả dĩ với cắt tỉa (pruning).
+**Giải pháp của dự án:** 
+- Sử dụng thuật toán Nearest Neighbor, một phương pháp heuristic đơn giản nhưng hiệu quả.
+- Giao diện đồ họa trực quan, hỗ trợ nhập liệu và hiển thị kết quả chi tiết.
 
-## Cài đặt
-Xem chi tiết trong file `README.md` ở thư mục `TSP_Project` và `INSTALL.md` ở thư mục `TSP_Project\setup` 
+## Chức năng chính
+- **Nhập dữ liệu**: Người dùng có thể tạo thành phố ngẫu nhiên hoặc nhập tọa độ thủ công.
+- **Hiển thị đồ thị**: Biểu diễn trực quan các thành phố và kết nối giữa chúng.
+- **Chạy thuật toán**: Tìm đường đi ngắn nhất bằng thuật toán Nearest Neighbor.
+- **Quản lý log**: Lưu và tải kết quả tính toán dưới dạng file JSON.
+- **Hiển thị ma trận**: Hiển thị ma trận khoảng cách và trọng số.
 
-## Sau khi chạy chương trình, cửa sổ giao diện người dùng sẽ hiện ra với các chức năng:
-   
-    - Thêm thành phố: Nhập số lượng thành phố và tọa độ của các thành phố.
-    - Chọn thuật toán: Chọn thuật toán để giải quyết bài toán TSP.
-    - Mô phỏng: Chạy thuật toán đã chọn và hiển thị kết quả.
-    - Lưu/Tải dữ liệu: Lưu kết quả và log vào file JSON hoặc tải dữ liệu từ file JSON.
-    - Xóa log: Xóa log kết quả hiện tại.
-    
-**Mô phỏng và kết quả**:
+## Công nghệ sử dụng
+- **Ngôn ngữ lập trình**: Python.
+- **Thư viện chính**:
+  - Tkinter: Tạo giao diện người dùng.
+  - NumPy: Tính toán ma trận.
+  - JSON: Quản lý lưu trữ log.
+  - itertools, random, math: Hỗ trợ các tính toán và thuật toán cơ bản.
 
-    - Thêm thành phố: Nhập số lượng thành phố và tọa độ thành phố hoặc tạo ngẫu nhiên các thành phố trong giới hạn của canvas.
-    - Chọn thuật toán: Chọn một trong các thuật toán Brute Force, Nearest Neighbor, 2-opt hoặc Backtracking.
-    - Mô phỏng: Bấm nút "Mô phỏng" để chạy thuật toán và xem kết quả trên canvas.
-    - Lưu/Tải dữ liệu: Sử dụng các nút "Lưu kết quả", "Tải thành phố", "Lưu Log", và "Tải Log" để lưu hoặc tải dữ liệu từ file JSON.
-    - Xóa log: Bấm nút "Xóa log" để xóa log kết quả hiện tại.
+## Hướng dẫn sử dụng
+1. **Cài đặt Python**: Đảm bảo Python đã được cài đặt trên máy (>= phiên bản 3.7).
+2. **Cài đặt thư viện**: Chạy lệnh sau để cài đặt các thư viện cần thiết:
+   ```bash
+   pip install numpy
+   ```
+3. **Chạy chương trình**:
+   ```bash
+   python program_110122227_PhanDangKhoa.py
+   ```
+4. **Thực hiện các chức năng**:
+   - Tạo ngẫu nhiên các thành phố.
+   - Nhập tọa độ thành phố thủ công.
+   - Chạy thuật toán và xem kết quả trực tiếp trên giao diện.
 
-## Thông Tin
+## Kết quả nổi bật
+- Tìm được đường đi và chi phí gần tối ưu cho các bài toán kích thước nhỏ đến trung bình.
+- Giao diện trực quan, dễ sử dụng và thân thiện với người dùng.
+- Hỗ trợ quản lý log kết quả và tải lại để phân tích.
 
-Nếu gặp bất kỳ vấn đề nào trong quá trình cài đặt hoặc sử dụng, vui lòng liên hệ với `Phan Đăng Khoa` qua email khoadangphan307@gmail.com.
+## Hướng phát triển
+- Tích hợp các thuật toán tối ưu khác như Genetic Algorithm, Simulated Annealing.
+- Nâng cấp giao diện thành ứng dụng web.
+- Hỗ trợ nhập dữ liệu từ bản đồ thực tế hoặc API địa lý.
 
-MSSV: 110122227
-
-Mã lớp: DA22TTB
-
-`GVHD: Trầm Hoàng Nam`
+## Liên hệ
+- **Tác giả**: Phan Đăng Khoa
+- **Email**: [khoadangphan307@gmail.com](mailto:khoadangphan307@gmail.com)
+- **Số điện thoại**: 0867570650
+- **GVHD**: Trầm Hoàng Nam
