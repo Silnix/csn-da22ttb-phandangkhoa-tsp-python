@@ -43,11 +43,6 @@ Bài toán người du lịch (Traveling Salesman Problem - TSP) là một trong
 - Giao diện trực quan, dễ sử dụng và thân thiện với người dùng.
 - Hỗ trợ quản lý log kết quả và tải lại để phân tích.
 
-## Hướng phát triển
-- Tích hợp các thuật toán tối ưu khác như Genetic Algorithm, Simulated Annealing.
-- Nâng cấp giao diện thành ứng dụng web.
-- Hỗ trợ nhập dữ liệu từ bản đồ thực tế hoặc API địa lý.
-
 ## Liên hệ
 - **Tác giả**: Phan Đăng Khoa
 - **Email**: [khoadangphan307@gmail.com](mailto:khoadangphan307@gmail.com)
