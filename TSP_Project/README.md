@@ -22,7 +22,6 @@ Thuật toán được triển khai:
 - `thesis/`: Chứa các tài liệu liên quan đến đồ án với các thư mục con:
   - `doc/`: Tài liệu Word (.doc).
   - `pdf/`: Tài liệu PDF.
-  - `html/`: Tài liệu web.
   - `abs/`: Báo cáo (PPT, AVI, ...).
   - `refs/`: Tài liệu tham khảo.
 - `README.md`: Tệp mô tả đồ án
