@@ -3,18 +3,15 @@
 ## Mô tả đồ án
 Dự án này mô phỏng bài toán Người Du Lịch (Traveling Salesman Problem - TSP) bằng Python. Mục tiêu là tìm đường đi ngắn nhất qua tất cả các thành phố và quay lại điểm xuất phát. Dự án cung cấp giao diện đồ họa thân thiện để người dùng tương tác.
 
-Các thuật toán được triển khai:
-- Brute Force: Thử tất cả các hoán vị để tìm đường đi tối ưu.
-- Nearest Neighbor: Chọn thành phố gần nhất chưa được thăm.
-- 2-opt: Tối ưu hóa đường đi ban đầu bằng cách hoán đổi các cạnh.
-- Backtracking: Duyệt tất cả các đường đi khả dĩ với cắt tỉa (pruning).
+Thuật toán được triển khai:
+- **Nearest Neighbor**: Chọn thành phố gần nhất chưa được ghé thăm.
 
 ---
 
 ## Tính năng chính
-- **Giao diện đồ họa**: Cho phép nhập dữ liệu thành phố, chọn thuật toán, và xem kết quả trực quan.
-- **Thuật toán tối ưu**: Triển khai nhiều phương pháp khác nhau để giải bài toán TSP.
-- **Quản lý dữ liệu**: Lưu và tải dữ liệu thành phố hoặc kết quả tính toán từ tệp JSON.
+- **Giao diện đồ họa**: Cung cấp giao diện trực quan cho phép nhập dữ liệu thành phố, chạy thuật toán, và hiển thị kết quả.
+- **Quản lý dữ liệu**: Lưu và tải lại log kết quả tính toán từ tệp JSON.
+- **Hiển thị kết quả chi tiết**: Bao gồm chi phí, đường đi, và thời gian thực hiện thuật toán.
 
 ---
 
@@ -40,27 +37,34 @@ Các thuật toán được triển khai:
   - `tkinter`
 
 ### 2. Cài đặt
-Xem tệp [INSTALL.md](setup/INSTALL.md) trong thư mục `setup/` để biết chi tiết về cách thiết lập môi trường.
 1. **Cài đặt Python**: Tải và cài đặt từ [https://www.python.org/](https://www.python.org/).
 2. **Cài đặt thư viện**:
-   - Dùng `pip` để cài các thư viện từ tệp `requirements.txt`:
+   - Sử dụng lệnh sau để cài đặt các thư viện từ tệp `requirements.txt`:
      ```bash
      pip install -r setup/requirements.txt
      ```
-	 
-### 3. Chạy chương trình
-1. Chạy lệnh sau trong terminal:
-   ```bash
-   python src/main.py
-   ```
-2. Giao diện sẽ mở ra, cho phép bạn tương tác.
 
-3. Tương tác với giao diện
-Nhập số lượng thành phố hoặc tọa độ các thành phố.
-Chọn thuật toán để giải bài toán.
-Nhấn Mô phỏng để xem kết quả.
+### 3. Chạy chương trình
+1. Thực hiện lệnh sau trong terminal:
+   ```bash
+   python src/program_110122227_PhanDangKhoa.py
+   ```
+2. Giao diện sẽ được mở ra để bạn có thể tương tác.
+
+---
+
+## Cách sử dụng
+1. **Nhập dữ liệu**:
+   - Tạo ngẫu nhiên các thành phố.
+   - Nhập tọa độ các thành phố thủ công.
+2. **Chọn thuật toán**: Hiện tại, chương trình hỗ trợ thuật toán Nearest Neighbor.
+3. **Xem kết quả**:
+   - Đường đi được hiển thị trên giao diện đồ họa.
+   - Các thông tin chi tiết như chi phí, thời gian được lưu trong bảng log.
+
+---
 
 ## Thông tin liên hệ
-Email: khoadangphan307@gmail.com
-
-Điện thoại: 0867560650
+- **Tác giả**: Phan Đăng Khoa
+- **Email**: [khoadangphan307@gmail.com](mailto:khoadangphan307@gmail.com)
+- **Số điện thoại**: (+84) 086-756-0650
